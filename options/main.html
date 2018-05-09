@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 
+	<title>Plugin Options</title>
+	<style>
+		label {
+			display: block;
+			padding-left: 15px;
+			text-indent: -15px;
+			color: white;
+		}
+		body{
+			margin: 12px;
+			background-color:  #ffffff;
+		}
+		input[type="checkbox"] {
+			width: 13px;
+			height: 13px;
+			padding: 0;
+			margin:0;
+			vertical-align: bottom;
+			position: relative;
+			top: -1px;
+			*overflow: hidden;
+		}
+		h2{
+			padding: 0px;
+			margin: 0px;
+			color:#069;
+		}
+		img{
+			height: 60px;
+			width: 220px;
+		}
+	
+		form label{
+			font-weight:bold;
+		}
+		h3{
+			color: white;
+		}
+		div{
+			
+			background-color: #000a1a;
+		}
+		form {
+			background-color: #000a1a;
+			margin:10px; 
+		}
+		.button {
+		  padding: 4px 7px;
+		  font-size: 14px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: #4CAF50;
+		  border: none;
+		  border-radius: 100px;
+		  box-shadow: 0 2px #999;
+		  margin:10px;
+		  right: 0;
+		  float: right;
+		}
+
+		.button:hover {background-color: #3e8e41}
+
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 2px #666;
+		  transform: translateY(2px);
+		}
+		
+		
+</style>
+</head>
+<body>
+
+<img src="/icons/img1.png">
+
+<div>
+
+	<form style="background-color:#000a1a">
+	
+		
+		<h3>Change Settings</h3>
+		<label>API Key : <input type="text" id="apiKey" /></label><br />
+		<label>Enabled : <input type="checkbox" id="isEnabled" /></label><br />
+		<input type="button" value="Save Settings" id="saveButton"  class="button" />
+		
+	</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
